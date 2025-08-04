@@ -1,0 +1,8 @@
+---
+  - name: demo for git
+    hosts: test_vm
+    vars:
+      - nginx
+    tasks:
+      - name: hello world
+        
